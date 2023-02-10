@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 30px 40px;
+    height: 100vh;
+
+}
+
+.mid-cell-text{
+    padding: 0;
+    margin-right: 0;
+}
+
+.mid-div{
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 400px 400px ;
+    grid-template-areas: 
+    "top-left top-mid top-right"
+    "bot-left bot-mid bot-right";
+     gap: 25px;
+}
+
+.project-screenshot{
+    width: 30vw;
+    height: 230px;
+}
+
+.left-top{
+    grid-area: top-left;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-top{
+    grid-area: top-mid;
+}
+
+.right-top{
+    grid-area: top-right;
+}
+
+.left-bottom{
+    grid-area: bot-left;
+}
+
+.mid-bottom{
+    grid-area: bot-mid;
+}
+
+.right-bottom{
+    grid-area: bot-right;
+}
