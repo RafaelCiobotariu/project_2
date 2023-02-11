@@ -189,7 +189,10 @@ body{
 .bottom-icon{
     height: 30px;
     width: 30px;
+    padding: 10px;
 }
+
+
 
 .right-bottom-part{
     /* max-width: 500px; */
