@@ -2,16 +2,56 @@ body{
     /* padding: 0; */
     margin: 30px 40px;
     height: 100vh;
-
+    overflow-x: hidden;
 }
+
+
 
 .top-left-part{
     height: 350px;
     width: 350px;
+    transform: rotate(3deg) translateX(100px);
+    /* padding-left: 30px; */
+    margin-left: 90px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.top-right-part{
+    transform: rotate(3deg) translateX(100px) translateY(70px);
+    z-index: -1;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    max-height: 250px;
+}
+
+.top-icons{
+    transform: translateY(60px) translateX(280px);
+}
+
+.upper-title{
+    padding-left: 20px;
 }
 
 .upper{
     display: flex;
+    background-color: rgb(131, 131, 238);
+    transform: rotate(-3deg);
+    margin-left: -80px;
+    margin-right: -80px;
+    padding-top: 70px;
+    margin-top: -100px;
+}
+
+.upper-text{
+    background-color: white;
+    margin: 0;
+    padding-left: 20px;
+    max-width: 400px;
+    
+}
+
+.mid{
+    padding-top: 100px;
 }
 
 .mid-div{
@@ -32,7 +72,6 @@ body{
 
 .left-top{
     grid-area: top-left;
-    /* max-width: 400px; */
     display: flex;
     flex-direction: column;
 }
@@ -83,7 +122,12 @@ body{
 .upper-part{
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 }
+
+/* .project-icons{
+    padding-top: 20px;
+} */
 
 .open-new-icon{
     width: 20px;
