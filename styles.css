@@ -1,13 +1,17 @@
 body{
-    padding: 0;
+    /* padding: 0; */
     margin: 30px 40px;
     height: 100vh;
 
 }
 
-.mid-cell-text{
-    padding: 0;
-    margin-right: 0;
+.top-left-part{
+    height: 350px;
+    width: 350px;
+}
+
+.upper{
+    display: flex;
 }
 
 .mid-div{
@@ -28,7 +32,7 @@ body{
 
 .left-top{
     grid-area: top-left;
-    max-width: 200px;
+    /* max-width: 400px; */
     display: flex;
     flex-direction: column;
 }
@@ -51,4 +55,103 @@ body{
 
 .right-bottom{
     grid-area: bot-right;
+}
+
+.project-title{
+    padding-top: 5px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.project-text{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-right: 0;
+    word-wrap: break-word;   
+}
+
+.project-div{
+    max-width: 30vw;
+    
+}
+
+.github-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.upper-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.open-new-icon{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.project-description{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+.bottom{
+    background-color: rgb(131, 131, 238);
+    color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+    margin: 0px -40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-bottom-part{
+    width: 400px;    
+}
+
+.contact-phone{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+
+.phone-number{
+    padding-left: 20px;
+    margin: 0;
+}
+
+.phone-icon{
+    height: 20px;
+    width: 20px;
+}
+
+.contact-email{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+
+.email{
+    padding-left: 20px;
+    margin: 0;
+}
+
+.email-icon{
+    height: 20px;
+    width: 20px; 
+}
+
+.bottom-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.right-bottom-part{
+    /* max-width: 500px; */
+    width: 400px;
+    max-height: 250px;
+    padding-top: 30px;
+    padding-right: 300px;
+    padding-bottom: 40px;
 }
