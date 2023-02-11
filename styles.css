@@ -9,7 +9,7 @@ body{
 
 .top-left-part{
     height: 350px;
-    width: 350px;
+    width: 450px;
     transform: rotate(3deg) translateX(100px);
     /* padding-left: 30px; */
     margin-left: 90px;
@@ -25,7 +25,7 @@ body{
 }
 
 .top-icons{
-    transform: translateY(60px) translateX(280px);
+    transform: translateY(60px) translateX(250px);
 }
 
 .upper-title{
@@ -34,7 +34,7 @@ body{
 
 .upper{
     display: flex;
-    background-color: rgb(131, 131, 238);
+    background-color: rgb(47, 47, 150);
     transform: rotate(-3deg);
     margin-left: -80px;
     margin-right: -80px;
@@ -141,7 +141,7 @@ body{
 
 
 .bottom{
-    background-color: rgb(131, 131, 238);
+    background-color: rgb(61, 61, 195);
     color: white;
     padding-left: 50px;
     padding-top: 20px;
@@ -152,6 +152,7 @@ body{
 
 .left-bottom-part{
     width: 400px;    
+    transform: translateX(100px);
 }
 
 .contact-phone{
@@ -192,11 +193,16 @@ body{
     padding: 10px;
 }
 
+.bottom-icon1{
+    padding: 10px 10px 10px 0;
+    height: 30px;
+    width: 30px;
+}
 
 
 .right-bottom-part{
     /* max-width: 500px; */
-    width: 400px;
+    width: 450px;
     max-height: 250px;
     padding-top: 30px;
     padding-right: 300px;
