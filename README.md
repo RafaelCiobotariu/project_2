@@ -1,2 +1,1 @@
-# project_2
- 
+project url :https://rafaelciobotariu.github.io/project_2/
